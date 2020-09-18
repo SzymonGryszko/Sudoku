@@ -1,5 +1,6 @@
 package problemdomain;
 
+import computationlogic.SudokuUtilities;
 import constants.GameState;
 
 import java.io.Serializable;

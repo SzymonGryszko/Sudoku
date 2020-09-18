@@ -1,6 +1,7 @@
 package userinterface;
 
 import javafx.scene.control.TextField;
+import javafx.scene.control.TextFormatter;
 
 public class SudokuTextField extends TextField {
     private final int x;
@@ -9,12 +10,7 @@ public class SudokuTextField extends TextField {
     public SudokuTextField(int x, int y) {
         this.x = x;
         this.y = y;
-    }
 
-    public SudokuTextField(String s, int x, int y) {
-        super(s);
-        this.x = x;
-        this.y = y;
     }
 
     public int getX() {
